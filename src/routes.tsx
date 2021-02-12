@@ -16,14 +16,3 @@ function Routes() {
 }
 
 export default Routes
-
-/*
-
-<Switch>
-    <Route path="/" exact component={Landing}/>
-    <Route path="/app" component={OrphanagesMap}/>
-</Switch>
-
-O Switch faz com que apenas uma rota seja exibida em tela
-
-*/
