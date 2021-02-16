@@ -1,5 +1,5 @@
 import React from "react";
-import { Map, Marker, TileLayer } from 'react-leaflet';
+import { MapContainer, Marker, TileLayer } from 'react-leaflet';
 import L from 'leaflet';
 import { useHistory } from "react-router-dom";
 
@@ -37,7 +37,7 @@ export default function CreateOrphanage() {
           <fieldset>
             <legend>Dados</legend>
 
-            <Map 
+            <MapContainer 
               center={[-27.2092052,-49.6401092]} 
               style={{ width: '100%', height: 280 }}
               zoom={15}
@@ -47,7 +47,7 @@ export default function CreateOrphanage() {
               />
 
               <Marker interactive={false} icon={happyMapIcon} position={[-27.2092052,-49.6401092]} />
-            </Map>
+            </MapContainer>
 
             <div className="input-block">
               <label htmlFor="name">Nome</label>
