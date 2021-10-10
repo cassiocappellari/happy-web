@@ -26,7 +26,7 @@
 
 ## ⏱ About
 
-**Happy** it's a web application developed during the Next Level Week by Rocketseat, and allows users to create and search orphanages around their cities in order to visit them to bring happiness to children who need it.
+**Happy** is a web application developed during the Next Level Week by [Rocketseat](https://rocketseat.com.br/), and allows users to create and search orphanages around their cities in order to visit them and bring happiness to children who need it.
 
 ## 🤖 Technologies
 
